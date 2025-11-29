@@ -9,6 +9,11 @@
 - 响应式布局，支持移动端
 - 平滑的动画效果
 
+## 下载
+
+前往 GitHub Releases 下载最新版本：  
+[`https://github.com/immotal/gowindow/releases`](https://github.com/immotal/gowindow/releases)
+
 ## 文件结构
 
 - `index.html` - 主页面
