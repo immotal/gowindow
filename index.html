@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gowindow - 快速窗口切换工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="code-symbol">&gt;</span>
+                <span class="app-name">gowindow</span>
+                <span class="cursor-blink">_</span>
+            </div>
+            <nav>
+                <a href="#features">功能</a>
+                <a href="#how-it-works">使用</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1 class="hero-title">
+                    <span class="code-comment">// 快速定位窗口</span><br>
+                    <span class="function-name">switchWindow</span><span class="paren">()</span>
+                </h1>
+                <p class="hero-subtitle">
+                    在 macOS 任意界面，通过快捷键唤醒面板，<br>
+                    用字母快速定位并跳转到目标窗口
+                </p>
+                <div class="hero-demo">
+                    <div class="demo-panel">
+                        <div class="demo-label">快捷键唤醒面板</div>
+                        <div class="demo-grid">
+                            <div class="demo-item">A</div>
+                            <div class="demo-item">B</div>
+                            <div class="demo-item active">C</div>
+                            <div class="demo-item">D</div>
+                            <div class="demo-item">E</div>
+                            <div class="demo-item">F</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features">
+                <h2 class="section-title">
+                    <span class="code-symbol">$</span> 核心特性
+                </h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⌨️</div>
+                        <h3>快捷键唤醒</h3>
+                        <p>在任何界面按下快捷键，立即唤醒窗口选择面板</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔤</div>
+                        <h3>字母导航</h3>
+                        <p>面板显示字母标签，输入对应字母快速定位窗口</p>
+                    </div>
+                    <div class="feature-card highlight">
+                        <div class="feature-icon">🎯</div>
+                        <h3>二级定位</h3>
+                        <p>支持两级下钻：先定位到应用，再定位到具体窗口</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works" class="how-it-works">
+                <h2 class="section-title">
+                    <span class="code-symbol">$</span> 工作原理
+                </h2>
+                <div class="workflow">
+                    <div class="workflow-step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>按下快捷键</h3>
+                            <p>在任意界面按下快捷键（如 <kbd>⌘</kbd> + <kbd>Space</kbd>）</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>选择应用</h3>
+                            <p>面板显示所有运行中的应用，每个应用对应一个字母</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>精确定位</h3>
+                            <p>如果应用有多个窗口，继续输入字母定位到具体窗口</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advantage">
+                <h2 class="section-title">
+                    <span class="code-symbol">$</span> 为什么选择 gowindow
+                </h2>
+                <div class="advantage-content">
+                    <div class="advantage-item">
+                        <span class="code-symbol">></span>
+                        <span>相比传统窗口切换，支持两级下钻定位</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="code-symbol">></span>
+                        <span>键盘操作，无需鼠标，效率更高</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="code-symbol">></span>
+                        <span>字母导航，直观易记，学习成本低</span>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="code-symbol">></span>
+                        <span>轻量级工具，不占用系统资源</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="code-example">
+                <h2 class="section-title">
+                    <span class="code-symbol">$</span> 使用示例
+                </h2>
+                <div class="code-block">
+                    <div class="code-line">
+                        <span class="code-comment"># 场景：你有多个 Chrome 窗口打开</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="code-keyword">1.</span> 按下快捷键 <span class="code-string">⌘ + Space</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="code-keyword">2.</span> 输入 <span class="code-string">C</span> 选择 Chrome
+                    </div>
+                    <div class="code-line">
+                        <span class="code-keyword">3.</span> 如果 Chrome 有多个窗口，继续输入字母定位
+                    </div>
+                    <div class="code-line">
+                        <span class="code-keyword">4.</span> 完成！窗口已切换
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>
+                    <span class="code-symbol">$</span> gowindow - macOS 窗口快速切换工具
+                </p>
+                <p class="footer-meta">
+                    Built with <span class="code-symbol">&lt;3</span> for productivity
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
