@@ -9,22 +9,6 @@
 - 响应式布局，支持移动端
 - 平滑的动画效果
 
-## 使用方法
-
-直接在浏览器中打开 `index.html` 文件即可查看。
-
-或者使用本地服务器：
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Node.js (需要安装 http-server)
-npx http-server
-```
-
-然后在浏览器中访问 `http://localhost:8000`
-
 ## 文件结构
 
 - `index.html` - 主页面
